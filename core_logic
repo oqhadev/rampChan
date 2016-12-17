@@ -1,0 +1,25 @@
+//prepare
+cek sdcard free size
+cek port_rom exist
+
+//prepare port rom
+unzip port_rom to tmp
+cek if port_rom exist in tmp
+delete several data from port_rom
+cek if file deleted on port_rom
+
+//prepare base rom
+mount /system 
+copy from system to port_rom
+cek if system exist in port_rom
+copy all system
+
+//prepare meta-inf build.prop 
+copy meta-inf to port_rom
+copy build.prop to port_rom
+cek if metainf and build.prop is exist
+
+//zipping
+zip port_rom
+
+

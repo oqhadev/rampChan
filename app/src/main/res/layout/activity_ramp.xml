@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ramp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Start_button"
+        android:id="@+id/Start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/oqha"
+        android:id="@+id/judul"
+        android:layout_below="@+id/Start_button"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:textSize="50dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Progres"
+        android:text="Mediatek cusRom Auto Porter"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:autoText="true"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/catatan"
+        android:layout_below="@+id/Progres"
+        android:text="#Cara pakenya? \n\n~cari cusrom hh lain, dengan syarat socnya sama ,contoh advan s5e mt6572 dgn Evercoss a7s mt6572\n\n~download lalu taruh di sdcard ente, lalu rename menjadi 'ramp_port.zip' , tanpa kutip \n\n~lalu pijit LETS PORT dan tunggu sampai ada tulisan sukses,jika sukses hasil porting akan ada di /sdcard/oqhaproject/ramp.zip \n\n--------------------------------------\n\n#Daftar HH yg support app ini\n\nUntuk sekarang hanya untuk Advan s5e\n\n--------------------------------------\n\n#Cara Flash hasil port?\n\n~pasang Custom Recovery seperti cwm/twrp/ctr/dll jika blum ada \n\n~Wipe data, wipe cache\n\n~install zip dan pilih ramp.zip di folder oqhaproject"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:editable="false"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:height="200dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="rampChan @ Oqha Project 2014\noqhatime.blogspot.com"
+        android:id="@+id/textView"
+       android:gravity="center"
+        android:layout_below="@+id/catatan"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+# rampChan @ Oqha Project 2014
+ro.build.id=JDQ39
+ro.build.display.id=RampChan
+ro.build.version.incremental=eng.pengyinhua.1379405516
+ro.custom.build.version=RampChan
+ro.build.version.sdk=17
+ro.build.version.codename=REL
+ro.build.version.release=L
+ro.build.date=2014
+ro.build.date.utc=02082014
+ro.build.type=user
+ro.build.user=RampChan
+ro.build.host=RampChan
+ro.build.tags=test-keys
+ro.product.model=Ramp
+ro.product.brand=Chan
+ro.product.name=RampChan
+ro.product.device=RampChan
+ro.product.board=RampChan
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=JYT
+ro.wifi.channels=
+ro.board.platform=RampChan
+ro.build.product=Y-30
+ro.build.description=Nexus_4 4.2.2 JDQ39 eng.pengyinhua.1379405516 test-keys
+ro.build.fingerprint=GOOGLE/Nexus_4/Nexus_4:4.2.2/JDQ39/1379405516:user/test-keys
+ro.build.flavor=mt72_BSP_f1ww_jyt_jb3_wcdma_sw_mul
+ro.build.characteristics=default
+ro.product.locale.language=en
+ro.product.locale.region=US
+persist.sys.timezone=
+ro.opengles.version=131072
+net.bt.name=Android
+fmd.aosp.mod.version=1.0.0-20140907-OFFICIAL
+# end build properties
+
+# begin mediatek build properties
+ro.mediatek.version.release=ALPS.JB3.MP.V1
+ro.mediatek.platform=MT6572
+ro.mediatek.chip_ver=S01
+ro.mediatek.version.branch=ALPS.JB3.MP
+ro.mediatek.version.sdk=1
+# end mediatek build properties
+#
+
+# RIL
+rild.libpath=/system/lib/mtk-ril.so
+rild.libargs=-d /dev/ttyC0
+ril.specific.sm_cause=0
+ril.external.md=0
+ril.current.share_modem=2
+ril.first.md=1
+ril.flightmode.poweroffMD=1
+ril.telephony.mode=1
+ril.radiooff.poweroffMD=0
+persist.gemini.sim_num=2
+ro.gemini.smart_sim_switch=false
+ro.gemini.smart_3g_switch=1
+ro.mediatek.gemini_support=true
+drm.service.enabled=true
+
+# Wi-Fi
+wifi.interface=wlan0
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+mediatek.wlan.ctia=0
+wifi.tethering.interface=ap0
+wifi.direct.interface=p2p0
+mediatek.wlan.chip=mediatek.wlan.module.postfix=_
+
+# USB
+sys.ipo.pwrdncap=2
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp,mass_storage
+ro.sys.usb.bicr=yes
+ro.sys.usb.charging.only=yes
+
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.zygote.preload.enable=0
+qemu.hw.mainkeys=1
+ro.kernel.zio=38,108,105,16
+bgw.current3gband=0
+ter.service.enable=0
+ro.sf.lcd_density=240
+
+persist.radio.fd.counter=15
+persist.radio.fd.off.counter=5
+persist.radio.fd.r8.counter=15
+persist.radio.fd.off.r8.counter=5
+persist.mtk.wcn.combo.chipid=-1
+fmradio.driver.enable=1
+
+ro.config.notification_sound=AndroidL_notification.ogg
+ro.config.alarm_alert=AndroidL_Alarm.ogg
+ro.config.ringtone=AndroidL_Ringtone.ogg
+
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.verify-bytecode=false
+dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.jmiopts=forcecopy
+dalvik.vm.checkjni=false
+dalvik.vm.check-dex-sum=false
+dalvik.vm.lockprof.threshold=100
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=384m
+#
+#Graphics Enhancement
+ro.media.dec.jpeg.memcap=20000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.enc.hprof.vid.fps=75
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.cam.preview.fps=0
+ro.media.codec_priority_for_thumb=so
+#Disables data sent and logging
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+ro.config.nocheckin=1
+#Disables logcat
+logcat.live=disable
+#Power Saving Tweaks
+power_supply.wakeup=enable
+proximity_incall=enable
+ro.config.hw_fast_dormancy=1
+ro.config.hw_power_saving=1
+ro.config.hw_quickpoweron=true
+ro.ril.disable.power.collapse=1
+ro.ril.sensor.sleep.control=1
+usb_wakeup=enable
+pm.sleep_mode=1
+#Dialing Tweaks
+mot.proximity.delay=25
+ro.lge.proximity.delay=25
+#Sound
+af.resampler.quality=255
+af.resample=48000
+#Smoother scrolling
+ro.max.fling_velocity=120000
+ro.min.fling_velocity=80000
+view.scroll_friction=10
+#Increase photo and video recording quality
+ro.media.dec.jpeg.memcap=8000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.capture.maxres=8m
+ro.media.panorama.defres=3264x1840
+ro.media.panorama.frameres=1280x720
+ro.camcorder.videoModes=true
+ro.media.enc.jpeg.quality=100
+#TOTORO RAM
+ro.FOREGROUND_APP_ADJ=0 
+ro.VISIBLE_APP_ADJ=1
+ro.SECONDARY_SERVER_ADJ=2
+ro.BACKUP_APP_ADJ=2 
+ro.HOME_APP_ADJ=-17 
+ro.HIDDEN_APP_MIN_ADJ=7 
+ro.CONTENT_PROVIDER_ADJ=14 
+ro.EMPTY_APP_ADJ=15
+#BATERY
+wifi.supplicant_scan_interval=180
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+#scroll
+windowsmgr.max_events_per_sec=150
+#DISPLAY 
+debug.performance.tuning=1 
+video.accelerate.hw=1 
+#faster Scrolling
+ro.max.fling_velocity=12000 
+ro.min.fling_velocity=800
+#Super Nova Fast boot
+ro.config.hw_quickpoweron=true
+
+#layar anda kebalik? edit ini
+ro.sf.hwrotation=180
